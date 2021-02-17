@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "IsD+8uSbxHNkgbg0x0TKRuVLIEsEQFgQ+CbGbWV4ZUVEtArdDTM0uWhqhS+7TC4rQaxjPe45vTQGs/RdLb8njw==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\test\\ConvertFromObjToFbxAndColerate\\ConvertObjToFbxAndColorate\\ConvertObjToFbxAndColorate\\ConvertObjToFbxAndColorate.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Siarhei.Kharlap\\.nuget\\packages\\aspose.3d\\19.6.0\\aspose.3d.19.6.0.nupkg.sha512",
+    "C:\\Users\\Siarhei.Kharlap\\.nuget\\packages\\fbxsharp\\0.9.0\\fbxsharp.0.9.0.nupkg.sha512",
+    "C:\\Users\\Siarhei.Kharlap\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\Siarhei.Kharlap\\.nuget\\packages\\microsoft.win32.systemevents\\4.5.0\\microsoft.win32.systemevents.4.5.0.nupkg.sha512",
+    "C:\\Users\\Siarhei.Kharlap\\.nuget\\packages\\system.drawing.common\\4.5.0\\system.drawing.common.4.5.0.nupkg.sha512",
+    "C:\\Users\\Siarhei.Kharlap\\.nuget\\packages\\vectsharp\\1.7.0\\vectsharp.1.7.0.nupkg.sha512",
+    "C:\\Users\\Siarhei.Kharlap\\.nuget\\packages\\vectsharp.threed\\1.0.1\\vectsharp.threed.1.0.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'FbxSharp 0.9.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "FbxSharp",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
