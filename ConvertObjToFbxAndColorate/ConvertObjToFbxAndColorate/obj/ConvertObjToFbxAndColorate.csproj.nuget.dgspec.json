@@ -46,7 +46,7 @@
           "dependencies": {
             "Aspose.3D": {
               "target": "Package",
-              "version": "[19.6.0, )"
+              "version": "[21.2.1, )"
             },
             "FbxSharp": {
               "target": "Package",

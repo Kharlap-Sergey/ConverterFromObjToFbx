@@ -1,5 +1,7 @@
 ﻿using Aspose.ThreeD;
 using Aspose.ThreeD.Formats;
+using Aspose.ThreeD.Shading;
+using Aspose.ThreeD.Utilities;
 using System.Collections.Generic;
 
 namespace ConvertObjToFbxAndColorate
@@ -16,7 +18,7 @@ namespace ConvertObjToFbxAndColorate
                 var document = new Scene(path);
                 mainDocument.RootNode.AddChildNode(document.RootNode);
 
-            }  
+            }
             var options = new FBXSaveOptions(FileFormat.FBX7500Binary);
             mainDocument.Save(to, options);
         }

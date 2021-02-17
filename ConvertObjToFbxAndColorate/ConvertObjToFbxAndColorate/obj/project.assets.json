@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Aspose.3D/19.6.0": {
+      "Aspose.3D/21.2.1": {
         "type": "package",
         "dependencies": {
           "System.Drawing.Common": "4.5.0"
@@ -97,23 +97,26 @@
     }
   },
   "libraries": {
-    "Aspose.3D/19.6.0": {
-      "sha512": "o34rEBZzXw9k32CaVMGf/qrnPoQNt6F6Vmmf5+NLowOCrhpCPXWMvrnCnc2/lbDl9JtOVBcGuJjPZiSVQcz1NQ==",
+    "Aspose.3D/21.2.1": {
+      "sha512": "vLnRv8FUXgJhoyIjScXD5iKSP9lHP2iRXt+4j2HTBz3o9+3WjWMGMATa3LzzRFtCAcd71DNbfvy9W9c36LHUvg==",
       "type": "package",
-      "path": "aspose.3d/19.6.0",
+      "path": "aspose.3d/21.2.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Licenses/Aspose_End-User-License-Agreement.txt",
         "Licenses/thirdpartylicense.Aspose.3D.for.NET.pdf",
-        "aspose.3d.19.6.0.nupkg.sha512",
+        "aspose.3d.21.2.1.nupkg.sha512",
         "aspose.3d.nuspec",
+        "icon.png",
         "lib/net40/Aspose.3D.dll",
         "lib/net40/Aspose.3D.xml",
         "lib/net45/Aspose.3D.dll",
         "lib/net45/Aspose.3D.xml",
         "lib/net46/Aspose.3D.dll",
         "lib/net46/Aspose.3D.xml",
+        "lib/net50/Aspose.3D.dll",
+        "lib/net50/Aspose.3D.xml",
         "lib/netstandard20/Aspose.3D.dll",
         "lib/netstandard20/Aspose.3D.xml"
       ]
@@ -233,7 +236,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Aspose.3D >= 19.6.0",
+      "Aspose.3D >= 21.2.1",
       "FbxSharp >= 0.9.0",
       "VectSharp.ThreeD >= 1.0.1"
     ]
@@ -284,7 +287,7 @@
         "dependencies": {
           "Aspose.3D": {
             "target": "Package",
-            "version": "[19.6.0, )"
+            "version": "[21.2.1, )"
           },
           "FbxSharp": {
             "target": "Package",
