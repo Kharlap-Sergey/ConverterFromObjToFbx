@@ -10,12 +10,16 @@ namespace ConvertObjToFbxAndColorate
             var sourceFilesCollection = Directory.GetFiles(@"D:\Projects\aibolit-src\ObjToFbx\3D model from CT");
             var Colors = new List<string>
             {
-                "#272d47",
-                "#03fc41",
-                "#472729",
-                "#fcba03",
-                "#464727",
-                "#274746"
+                "#d4d85b",
+                "#183cd5",
+                "#fe020b",
+                "#3f7c39",
+                "#f9e6a3",
+                "#a9d1de",
+                "#ffc27a",
+                "#c4c4c4",
+                "#e346ff",
+                "#ff6f29",
             };
 
             var ThreeDModelCollection = new List<ThreeDModelRepresenter>();
