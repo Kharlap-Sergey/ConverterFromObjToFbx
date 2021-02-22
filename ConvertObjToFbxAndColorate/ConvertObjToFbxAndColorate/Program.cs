@@ -15,7 +15,7 @@ namespace ConvertObjToFbxAndColorate
             var sourceFilesCollection = Directory.GetFiles(pathToDerictory);
 
             //define a mock colors
-            var Colors = new List<string>
+            var colors = new List<string>
             {
                 "#d4d85b",
                 "#183cd5",
@@ -39,17 +39,15 @@ namespace ConvertObjToFbxAndColorate
                     new ThreeDModelRepresenter
                     {
                         PathToModel = sourceFilesCollection[i],
-                        ColorHexFromat = Colors[i % Colors.Count]
-                    }
-                    );
-                ;
+                        ColorHexFromat = colors[i % colors.Count]
+                    });
             }
 
             //execute 
+            var pathToSaveResult = "./test.fbx";
             Converter.MergeAndColorateObjFilesToFbxFile(
                     ThreeDModelCollection,
-                    "./test.fbx"
-                    );
+                    pathToSaveResult);
         }
     }
 }
