@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\test\\ConvertFromObjToFbxAndColerate\\ConvertObjToFbxAndColorate\\ConvertObjToFbxAndColorate\\Demo.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\test\\ConvertFromObjToFbxAndColerate\\ConvertObjToFbxAndColorate\\ConvertObjToFbxAndColorate\\Demo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\test\\ConvertFromObjToFbxAndColerate\\ConvertObjToFbxAndColorate\\ConvertObjToFbxAndColorate\\Demo.csproj",
+        "projectName": "Demo",
+        "projectPath": "D:\\Projects\\test\\ConvertFromObjToFbxAndColerate\\ConvertObjToFbxAndColorate\\ConvertObjToFbxAndColorate\\Demo.csproj",
+        "packagesPath": "C:\\Users\\Siarhei.Kharlap\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\test\\ConvertFromObjToFbxAndColerate\\ConvertObjToFbxAndColorate\\ConvertObjToFbxAndColorate\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Siarhei.Kharlap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Projects\\test\\ConvertFromObjToFbxAndColerate\\ConvertObjToFbxAndColorate\\MergeAndColorateObjFilesToFbxFile\\Solver.csproj": {
+                "projectPath": "D:\\Projects\\test\\ConvertFromObjToFbxAndColerate\\ConvertObjToFbxAndColorate\\MergeAndColorateObjFilesToFbxFile\\Solver.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Aspose.3D": {
+              "target": "Package",
+              "version": "[21.2.1, )"
+            },
+            "FbxSharp": {
+              "target": "Package",
+              "version": "[0.9.0, )"
+            },
+            "VectSharp.ThreeD": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\test\\ConvertFromObjToFbxAndColerate\\ConvertObjToFbxAndColorate\\MergeAndColorateObjFilesToFbxFile\\Solver.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\test\\ConvertFromObjToFbxAndColerate\\ConvertObjToFbxAndColorate\\MergeAndColorateObjFilesToFbxFile\\Solver.csproj",
+        "projectName": "Solver",
+        "projectPath": "D:\\Projects\\test\\ConvertFromObjToFbxAndColerate\\ConvertObjToFbxAndColorate\\MergeAndColorateObjFilesToFbxFile\\Solver.csproj",
+        "packagesPath": "C:\\Users\\Siarhei.Kharlap\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\test\\ConvertFromObjToFbxAndColerate\\ConvertObjToFbxAndColorate\\MergeAndColorateObjFilesToFbxFile\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Siarhei.Kharlap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Aspose.3D": {
+              "target": "Package",
+              "version": "[21.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

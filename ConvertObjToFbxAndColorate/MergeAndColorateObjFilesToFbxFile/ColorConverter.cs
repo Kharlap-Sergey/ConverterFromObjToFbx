@@ -1,13 +1,18 @@
 ﻿using System.Drawing;
 using System.Globalization;
 
-namespace ConvertObjToFbxAndColorate
+namespace Solver
 {
     public static class ColorConverter
     {
+        /// <summary>
+        /// convert hex color string to Color class 
+        /// </summary>
+        /// <param name="hexString">hex color representer</param>
+        /// <returns></returns>
         public static Color HexToColor(string hexString)
         {
-            //replace # occurences
+            //replace # occurrences
             if( hexString.IndexOf('#') != -1 )
                 hexString = hexString.Replace("#", "");
 

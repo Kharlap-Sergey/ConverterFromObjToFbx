@@ -1,0 +1,9 @@
+D:\Projects\test\ConvertFromObjToFbxAndColerate\ConvertObjToFbxAndColorate\MergeAndColorateObjFilesToFbxFile\bin\Debug\netcoreapp3.1\Solver.deps.json
+D:\Projects\test\ConvertFromObjToFbxAndColerate\ConvertObjToFbxAndColorate\MergeAndColorateObjFilesToFbxFile\bin\Debug\netcoreapp3.1\Solver.dll
+D:\Projects\test\ConvertFromObjToFbxAndColerate\ConvertObjToFbxAndColorate\MergeAndColorateObjFilesToFbxFile\bin\Debug\netcoreapp3.1\Solver.pdb
+D:\Projects\test\ConvertFromObjToFbxAndColerate\ConvertObjToFbxAndColorate\MergeAndColorateObjFilesToFbxFile\obj\Debug\netcoreapp3.1\Solver.csprojAssemblyReference.cache
+D:\Projects\test\ConvertFromObjToFbxAndColerate\ConvertObjToFbxAndColorate\MergeAndColorateObjFilesToFbxFile\obj\Debug\netcoreapp3.1\Solver.AssemblyInfoInputs.cache
+D:\Projects\test\ConvertFromObjToFbxAndColerate\ConvertObjToFbxAndColorate\MergeAndColorateObjFilesToFbxFile\obj\Debug\netcoreapp3.1\Solver.AssemblyInfo.cs
+D:\Projects\test\ConvertFromObjToFbxAndColerate\ConvertObjToFbxAndColorate\MergeAndColorateObjFilesToFbxFile\obj\Debug\netcoreapp3.1\Solver.csproj.CoreCompileInputs.cache
+D:\Projects\test\ConvertFromObjToFbxAndColerate\ConvertObjToFbxAndColorate\MergeAndColorateObjFilesToFbxFile\obj\Debug\netcoreapp3.1\Solver.dll
+D:\Projects\test\ConvertFromObjToFbxAndColerate\ConvertObjToFbxAndColorate\MergeAndColorateObjFilesToFbxFile\obj\Debug\netcoreapp3.1\Solver.pdb

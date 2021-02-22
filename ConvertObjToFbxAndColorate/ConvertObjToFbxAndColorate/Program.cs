@@ -1,5 +1,6 @@
 ﻿using System.IO;
 using System.Collections.Generic;
+using Solver;
 
 namespace ConvertObjToFbxAndColorate
 {
@@ -7,7 +8,13 @@ namespace ConvertObjToFbxAndColorate
     {
         static void Main(string[] args)
         {
-            var sourceFilesCollection = Directory.GetFiles(@"D:\Projects\aibolit-src\ObjToFbx\3D model from CT");
+            //files location
+            var pathToDerictory = @"D:\Projects\aibolit-src\ObjToFbx\3D model from CT";
+
+            //all files from location
+            var sourceFilesCollection = Directory.GetFiles(pathToDerictory);
+
+            //define a mock colors
             var Colors = new List<string>
             {
                 "#d4d85b",
@@ -22,8 +29,10 @@ namespace ConvertObjToFbxAndColorate
                 "#ff6f29",
             };
 
+            //custom class to represent 3d object and required color
             var ThreeDModelCollection = new List<ThreeDModelRepresenter>();
 
+            //map colors with files 
             for(int i = 0; i < sourceFilesCollection.Length; i++ )
             {
                 ThreeDModelCollection.Add(
@@ -36,7 +45,8 @@ namespace ConvertObjToFbxAndColorate
                 ;
             }
 
-            Converter.ConverteFromObjToFbx(
+            //execute 
+            Converter.MergeAndColorateObjFilesToFbxFile(
                     ThreeDModelCollection,
                     "./test.fbx"
                     );

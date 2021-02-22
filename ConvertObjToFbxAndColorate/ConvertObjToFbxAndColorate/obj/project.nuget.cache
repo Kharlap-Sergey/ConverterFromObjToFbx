@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b2jyZv7WpqMngxQyGnw4WT+vDL0kFUIQMmHHT+sfl51+n9PNU8x/4WsmPLdnRJZxuR/QLyheW8WdN81I5Oo8Qw==",
+  "dgSpecHash": "kScmmE1Gzyit6MmGL6V3zD8QeGF9+eCNYLZOcJRJPxjONekKN8163mFLObmjcFQP4I7d6MKKDZ5cNnjVdZLshA==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\test\\ConvertFromObjToFbxAndColerate\\ConvertObjToFbxAndColorate\\ConvertObjToFbxAndColorate\\ConvertObjToFbxAndColorate.csproj",
+  "projectFilePath": "D:\\Projects\\test\\ConvertFromObjToFbxAndColerate\\ConvertObjToFbxAndColorate\\ConvertObjToFbxAndColorate\\Demo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Siarhei.Kharlap\\.nuget\\packages\\aspose.3d\\21.2.1\\aspose.3d.21.2.1.nupkg.sha512",
     "C:\\Users\\Siarhei.Kharlap\\.nuget\\packages\\fbxsharp\\0.9.0\\fbxsharp.0.9.0.nupkg.sha512",

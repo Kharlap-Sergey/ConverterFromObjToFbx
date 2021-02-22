@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "a77IplASXAspcNDyqAZpTFUEkUWe6qLE6CBTeASsY4qLBX5s6R67Vv5AFbnQU1DDmJhthszBUkqUB04AhpcrBw==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\test\\ConvertFromObjToFbxAndColerate\\ConvertObjToFbxAndColorate\\MergeAndColorateObjFilesToFbxFile\\Solver.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Siarhei.Kharlap\\.nuget\\packages\\aspose.3d\\21.2.1\\aspose.3d.21.2.1.nupkg.sha512",
+    "C:\\Users\\Siarhei.Kharlap\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\Siarhei.Kharlap\\.nuget\\packages\\microsoft.win32.systemevents\\4.5.0\\microsoft.win32.systemevents.4.5.0.nupkg.sha512",
+    "C:\\Users\\Siarhei.Kharlap\\.nuget\\packages\\system.drawing.common\\4.5.0\\system.drawing.common.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

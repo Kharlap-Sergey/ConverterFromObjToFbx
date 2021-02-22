@@ -14,15 +14,6 @@
           "lib/netstandard20/Aspose.3D.dll": {}
         }
       },
-      "FbxSharp/0.9.0": {
-        "type": "package",
-        "compile": {
-          "lib/net40/FbxSharp.dll": {}
-        },
-        "runtime": {
-          "lib/net40/FbxSharp.dll": {}
-        }
-      },
       "Microsoft.NETCore.Platforms/2.0.0": {
         "type": "package",
         "compile": {
@@ -72,40 +63,6 @@
             "rid": "win"
           }
         }
-      },
-      "VectSharp/1.7.0": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/VectSharp.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/VectSharp.dll": {}
-        }
-      },
-      "VectSharp.ThreeD/1.0.1": {
-        "type": "package",
-        "dependencies": {
-          "VectSharp": "1.7.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/VectSharp.ThreeD.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/VectSharp.ThreeD.dll": {}
-        }
-      },
-      "Solver/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Aspose.3D": "21.2.1"
-        },
-        "compile": {
-          "bin/placeholder/Solver.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Solver.dll": {}
-        }
       }
     }
   },
@@ -132,20 +89,6 @@
         "lib/net50/Aspose.3D.xml",
         "lib/netstandard20/Aspose.3D.dll",
         "lib/netstandard20/Aspose.3D.xml"
-      ]
-    },
-    "FbxSharp/0.9.0": {
-      "sha512": "0pt868BFMfRXqtcY3A2CHsOWxrYQl7/JVptjg2eyoniHSokENl6Yjg2J+laJh/N8IOVQ89bfxNireNQv4M2KMA==",
-      "type": "package",
-      "path": "fbxsharp/0.9.0",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "fbxsharp.0.9.0.nupkg.sha512",
-        "fbxsharp.nuspec",
-        "lib/net40/FbxSharp.dll",
-        "tools/FbxPrint.exe"
       ]
     },
     "Microsoft.NETCore.Platforms/2.0.0": {
@@ -217,47 +160,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "VectSharp/1.7.0": {
-      "sha512": "4PdfvNO+L/il8SAJEEz1haybZ356yfpZR1rKjG14VnScafN1DQVGrcZCQPyWU/ycwm3yPOfJCPKXstBdQSFNpQ==",
-      "type": "package",
-      "path": "vectsharp/1.7.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icon.png",
-        "lib/netstandard2.0/VectSharp.dll",
-        "lib/netstandard2.0/VectSharp.xml",
-        "vectsharp.1.7.0.nupkg.sha512",
-        "vectsharp.nuspec"
-      ]
-    },
-    "VectSharp.ThreeD/1.0.1": {
-      "sha512": "0cSIfdtyxZhU8qpguz8/+xOUanBv93xZIpbZJ2lqNLnYWKX0p9iECdqS0jPBXEM+WVzV1jO89dcpuKxB0miljw==",
-      "type": "package",
-      "path": "vectsharp.threed/1.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icon.png",
-        "lib/netstandard2.0/VectSharp.ThreeD.dll",
-        "lib/netstandard2.0/VectSharp.ThreeD.xml",
-        "vectsharp.threed.1.0.1.nupkg.sha512",
-        "vectsharp.threed.nuspec"
-      ]
-    },
-    "Solver/1.0.0": {
-      "type": "project",
-      "path": "../MergeAndColorateObjFilesToFbxFile/Solver.csproj",
-      "msbuildProject": "../MergeAndColorateObjFilesToFbxFile/Solver.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Aspose.3D >= 21.2.1",
-      "FbxSharp >= 0.9.0",
-      "Solver >= 1.0.0",
-      "VectSharp.ThreeD >= 1.0.1"
+      "Aspose.3D >= 21.2.1"
     ]
   },
   "packageFolders": {
@@ -267,11 +174,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\test\\ConvertFromObjToFbxAndColerate\\ConvertObjToFbxAndColorate\\ConvertObjToFbxAndColorate\\Demo.csproj",
-      "projectName": "Demo",
-      "projectPath": "D:\\Projects\\test\\ConvertFromObjToFbxAndColerate\\ConvertObjToFbxAndColorate\\ConvertObjToFbxAndColorate\\Demo.csproj",
+      "projectUniqueName": "D:\\Projects\\test\\ConvertFromObjToFbxAndColerate\\ConvertObjToFbxAndColorate\\MergeAndColorateObjFilesToFbxFile\\Solver.csproj",
+      "projectName": "Solver",
+      "projectPath": "D:\\Projects\\test\\ConvertFromObjToFbxAndColerate\\ConvertObjToFbxAndColorate\\MergeAndColorateObjFilesToFbxFile\\Solver.csproj",
       "packagesPath": "C:\\Users\\Siarhei.Kharlap\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\test\\ConvertFromObjToFbxAndColerate\\ConvertObjToFbxAndColorate\\ConvertObjToFbxAndColorate\\obj\\",
+      "outputPath": "D:\\Projects\\test\\ConvertFromObjToFbxAndColerate\\ConvertObjToFbxAndColorate\\MergeAndColorateObjFilesToFbxFile\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -291,11 +198,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "D:\\Projects\\test\\ConvertFromObjToFbxAndColerate\\ConvertObjToFbxAndColorate\\MergeAndColorateObjFilesToFbxFile\\Solver.csproj": {
-              "projectPath": "D:\\Projects\\test\\ConvertFromObjToFbxAndColerate\\ConvertObjToFbxAndColorate\\MergeAndColorateObjFilesToFbxFile\\Solver.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -311,14 +214,6 @@
           "Aspose.3D": {
             "target": "Package",
             "version": "[21.2.1, )"
-          },
-          "FbxSharp": {
-            "target": "Package",
-            "version": "[0.9.0, )"
-          },
-          "VectSharp.ThreeD": {
-            "target": "Package",
-            "version": "[1.0.1, )"
           }
         },
         "imports": [
@@ -339,17 +234,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'FbxSharp 0.9.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
-      "libraryId": "FbxSharp",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  }
 }
